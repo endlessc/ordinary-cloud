@@ -1,0 +1,11 @@
+{
+  "sentinelServersConfig": {
+    "sentinelAddresses": [
+      "redis://127.0.0.1:16379",
+      "redis://127.0.0.1:16380"
+    ],
+    "masterName": "host6379",
+    "database": 0,
+    "password": "123456"
+  }
+}

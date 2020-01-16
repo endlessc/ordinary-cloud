@@ -1,0 +1,22 @@
+server:
+  port: 8030
+
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/HyacinthFlower/ordinary-cloud
+          search-paths: /ordinarycloud-config/config-repo
+          username: z967882@126.com
+          password: zhangjiahao123456.com
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}

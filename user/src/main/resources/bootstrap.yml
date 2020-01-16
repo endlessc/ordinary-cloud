@@ -1,0 +1,18 @@
+
+spring:
+  cloud:
+    config:
+      name: user
+      profile: pro
+      label: master
+      discovery:
+        enabled: true
+        service-id: config
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
