@@ -10,8 +10,8 @@ spring:
         git:
           uri: https://github.com/HyacinthFlower/ordinary-cloud
           search-paths: /ordinarycloud-config/config-repo
-          username: z967882@126.com
-          password: zhangjiahao123456.com
+          username:
+          password:
 
 eureka:
   client:
