@@ -1,4 +1,4 @@
-# ordinary-cloud
+![https://img.shields.io/badge/license-Apache%202.0-blue.svg?longCache=true&style=flat-square](https://img.shields.io/badge/JDK-11-blue.svg?longCache=true&style=flat-square)![https://img.shields.io/badge/SpringCloudAlibaba-2.1.1.RELEASE-blueviolet.svg?style=flat-square](https://img.shields.io/badge/SpringCloud-Hoxton.SR1-blueviolet.svg?style=flat-square)![https://img.shields.io/badge/springboot-2.2.1.RELEASE-brightgreen.svg?style=flat-square](https://img.shields.io/badge/springboot-2.2.2.RELEASE-brightgreen.svg?style=flat-square)
 
 ### 项目介绍
     1，SpringBoot + SpringCloud搭建的一个完整分布式框架。
